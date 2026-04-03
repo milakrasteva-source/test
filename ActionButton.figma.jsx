@@ -9,7 +9,7 @@ figma.connect(
       disabled: figma.boolean("Disabled"),
     },
     example: ({ disabled }) => {
-      return <ActionButton disabled={disabled}>Apply</ActionButton>;
+      return <ActionButton disabled={disabled}>Submit</ActionButton>;
     },
   }
 );

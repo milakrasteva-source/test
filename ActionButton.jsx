@@ -7,7 +7,7 @@ type ActionButtonProps = ComponentProps<typeof Button>;
 export function ActionButton({ children, ...props }: ActionButtonProps) {
   return (
     <Button {...props} disabled={pending || props.disabled}>
-      {children}
+      {children ?? "Apply"}
     </Button>
   );
 }
